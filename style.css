@@ -8,25 +8,46 @@ font-family: 'Roboto', sans-serif;
     background: #059669;
 }
 .high{
-    height: 150px;
+    height:600px;
 }
 .modal-ku{
     height: auto;
 }
-.tamaño{
-   
-}
+.btn-neko {
+    color: #059669;
+    background-color: #A7F3D0;
+    border-color: #A7F3D0;
+    padding: 16px 40px;
+  }
+  .btn-neko:hover {
+    color: #047857;
+    background-color: #A7F3D0;
+    border-color: #A7F3D0;
+  }
+  .btn-padding {
+      padding: 16px 40px;
+  }
 .block{
 color: #1F2937;
 font-size: 60px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
 }
 .block2{
     color: #059669;
     font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+font-weight: 800;
     }
  .block3 {
      color: #747477;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-size: 20px;
  }
  .bg-s{
      background: #F9FAFB;
+ }
+ .prueba {
+     height: 300px;
  }
