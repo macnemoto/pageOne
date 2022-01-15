@@ -1,53 +1,57 @@
-body{
-    font-family: 'Lora', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .color {
-    background: #059669;
+  background: #059669;
 }
-.high{
-    height:600px;
+.high {
+  height: 600px;
 }
-.modal-ku{
-    height: auto;
+.modal-ku {
+  height: auto;
 }
 .btn-neko {
-    color: #059669;
-    background-color: #A7F3D0;
-    border-color: #A7F3D0;
-    padding: 16px 40px;
-  }
-  .btn-neko:hover {
-    color: #047857;
-    background-color: #A7F3D0;
-    border-color: #A7F3D0;
-  }
-  .btn-padding {
-      padding: 16px 40px;
-  }
-.block{
-color: #1F2937;
-font-size: 60px;
-font-family: 'Open Sans', sans-serif;
-font-weight: 800;
+  color: #059669;
+  background-color: #d1fae5;
+  border-color: #d1fae5;
+  padding: 16px 40px;
+  margin-left: 5px;
 }
-.block2{
-    color: #059669;
-    font-size: 60px;
-    font-family: 'Open Sans', sans-serif;
-font-weight: 800;
-    }
- .block3 {
-     color: #747477;
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 400;
-     font-size: 20px;
- }
- .bg-s{
-     background: #F9FAFB;
- }
- .prueba {
-     height: 300px;
- }
+.btn-neko:hover {
+  color: #047857;
+  background-color: #a7f3d0;
+  border-color: #a7f3d0;
+}
+.btn-padding {
+  padding: 16px 40px;
+}
+.block {
+  color: #1f2937;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.block2 {
+  color: #059669;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+.block3 {
+  color: #747477;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.bg-s {
+  background: #f9fafb;
+}
+.prueba {
+  height: 300px;
+}
+.w-neko {
+    width: 40%;
+}
