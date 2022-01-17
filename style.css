@@ -55,3 +55,24 @@ body {
 .w-neko {
     width: 40%;
 }
+@media only screen and (max-width: 576px) {
+  .w-neko {
+   width: 75%;
+   margin: 35px;
+  }
+  .block {
+    font-size: 50px;
+  }
+  .orugitas {
+    text-align: center;
+    margin: 35px 0px 35px 0px;
+}
+.orugitas2 {
+  text-align: center;
+  padding: 6%;
+
+}
+}
+.hidden {
+  padding: 50px;
+}
