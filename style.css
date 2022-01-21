@@ -56,28 +56,48 @@ body {
 .w-neko {
   width: 40%;
 }
-.h3-margin{
+.h3-margin {
   margin-top: 20px;
+}
+.pocision {
+  position: relative;
+
+  /* top: 900px; left: 520px;*/
+}
+.pocision2 {
+  position: absolute;
+  width: 45%;
+  /* top: 900px; left: 520px;*/
+}
+.num1 {
+  z-index: 2;
+}
+.num2 {
+  z-index: 1;
+}
+.margin-secion {
+  text-align: center;
+  margin: 0px 20% 0px 20%;
+}
+
+@media only screen and (max-width: 992px) {
+  .margin-secion {
+    text-align: center;
+    margin: 0px 20% 0px 20%;
   }
-  .pocision {
-      position: relative;
-    
-   /* top: 900px; left: 520px;*/
+}
+@media only screen and (max-width: 768px) {
+  .margin-secion {
+    text-align: center;
+    margin: 0px 20% 0px 20%;
   }
-  .pocision2 {
-    position: absolute;
-    width: 45%;
-   /* top: 900px; left: 520px;*/
-  }
-  .num1 {
-    
-    
-z-index: 2;
-  }
-  .num2 {
-    z-index:  1;
-  }
+}
+
 @media only screen and (max-width: 576px) {
+  .margin-secion {
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
   .pocision {
     position: absolute;
     top: 200px;
@@ -94,8 +114,8 @@ z-index: 2;
   }
   .h2-size {
     text-align: center;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 19px;
+    line-height: 24px;
     font-weight: 800;
     padding: 0px 10px;
   }
@@ -115,20 +135,23 @@ z-index: 2;
   .p2-size {
     text-align: center;
     margin-top: 16px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 24px;
     font-weight: 400;
     color: #6b7280;
   }
   .text-align-left {
     text-align: left;
   }
-  .text-light 
-    {
-      font-size: 1.5rem;
-      line-height: 2rem;
+  .text-light {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
-  
+  .pocision2 {
+    position: absolute;
+    width: 85%;
+    /* top: 900px; left: 520px;*/
+  }
 }
 .hidden {
   padding: 50px 0px;
@@ -140,6 +163,8 @@ ul li {
   display: flex;
 }
 .margin-10px {
-margin-left: 20px;
-
+  margin-left: 20px;
+}
+.bold-800 {
+  font-weight: 800;
 }
