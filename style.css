@@ -152,6 +152,10 @@ body {
     width: 85%;
     /* top: 900px; left: 520px;*/
   }
+  .size-sm-hit{
+    font-size: 25px;
+    line-height: normal;
+  }
 }
 .hidden {
   padding: 50px 0px;
@@ -167,4 +171,8 @@ ul li {
 }
 .bold-800 {
   font-weight: 800;
+}
+ul >  li > a:hover {
+  color: #fff !important; 
+
 }
