@@ -176,3 +176,17 @@ ul >  li > a:hover {
   color: #fff !important; 
 
 }
+.margin-ajustado {
+  margin: 0px 50% 0px 50%;
+}
+.img-no {
+  display: none;
+}
+.px-6 {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.mx-6 {
+  margin-left: 30%;
+  margin-right: 30%;
+}
