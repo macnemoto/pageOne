@@ -62,13 +62,15 @@ body {
 .pocision {
   
  position: absolute;
-  top: 4%; 
- left: 3%;
-  width: 71%
+  left: 52%;
+  width: 31%;
+ 
+ 
+
   
 }
 .pocision2 {
-  position: absolute;
+  position: relative;
   height: auto;
   
 }
